@@ -9,5 +9,5 @@ def basic_test_df():
     ])
     df = spark_session.createDataFrame(data, schema)
 
-    print("Say Hi")
+    print("Say")
     return df
