@@ -8,4 +8,6 @@ def basic_test_df():
         StructField('Age', IntegerType(), True)
     ])
     df = spark_session.createDataFrame(data, schema)
+    print("Hi")
+
     return df
